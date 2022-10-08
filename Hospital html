@@ -1,0 +1,112 @@
+
+
+<footer>
+
+  <!-- W     A       V        E-->
+  <div class="waves">
+    <div class="wave" id="wave1"></div>
+    <div class="wave" id="wave2"></div>
+    <div class="wave" id="wave3"></div>
+    <div class="wave" id="wave4"></div>
+</div>
+  <!-- W     A       V        E-->
+
+
+  <div class="newsletter">
+    <div data-aos="fade-right" data-aos-offset="60" data-aos-delay="150">
+      <h2> Subscribe Our Newsletter</h2>
+      <p>We are a team of non-cynics who truly care for our work.</p>
+    </div>
+    <div class="ntext" data-aos="fade-left" data-aos-offset="60" data-aos-delay="150">
+      <lebel>
+        <input type="text" name="" placeholder="Enter Your Email">
+        <button>Subscribe</button>
+      </lebel>
+    </div>
+  </div>
+  <div class="f-contact" data-aos="zoom-in-up" data-aos-offset="80" data-aos-delay="150">
+        <div>
+          <h5>Information</h5>
+          <p>A healthy outside starts from the inside.</p>
+          <i class="fa fa-youtube"></i>
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-whatsapp"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-hospital-o"></i>
+          <i class="fa fa-ambulance"></i>
+          <i class="fa fa-user-md"></i>
+        </div>
+        <div>
+          <h5>Useful Links</h5>
+          <p>About Us</p>
+          <p>Hospital</p>
+          <p>Doctors</p>
+          <p>Ambulance</p>
+          <p>Blood</p>
+          <p>Blog</p>
+        </div>
+
+        <div>
+          <h5>Useful Links</h5>
+          <p>About Us</p>
+          <p>Hospital</p>
+          <p>Doctors</p>
+          <p>Ambulance</p>
+          <p>Blood</p>
+          <p>Blog</p>
+        </div>
+
+        <div>
+          <h5>Useful Links</h5>
+          <p>About Us</p>
+          <p>Hospital</p>
+          <p>Doctors</p>
+          <p>Ambulance</p>
+          <p>Blood</p>
+          <p>Blog</p>
+        </div>
+        
+
+  </div>
+ 
+        <div class="copyright">
+          <footer>&copy; 2022 HealthSchool24.com</footer>
+        </div>
+
+        <div class="develop">
+          <a href="https://www.facebook.com/SWE480/">Developed by Nafiz</a>
+        </div>
+
+        <div class="drnayem">
+          <footer><a href="https://www.facebook.com/nayem.nasimul.5">For Emergency Help - Dr. Nayem</a></footer>
+        </div>
+</footer>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <script type="text/javascript">
+    $('.portfolio-item').isotope({
+  // options
+  itemSelector: '.item',
+  layoutMode: 'fitRows'
+});
+       $('.portfolio-menu ul li').click(function(){
+        $('.portfolio-menu ul li').removeClass('active');
+        $(this).addClass('active');
+
+      var selector = $(this).attr('data-filter');
+      $('.portfolio-item').isotope({
+          filter:selector
+      });
+      return false;
+       });
+  </script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+  </html>
